@@ -29,7 +29,7 @@ public class LightUp : MonoBehaviour
 
 		// Get the GVR audio source component on this orb and play the audio.
 		/* Uncomment the line below during 'A Little More Feedback!' lesson.*/
-		// this.GetComponent<GvrAudioSource>().Play();
+		this.GetComponent<GvrAudioSource>().Play();
 	}
 
 	// Called when the reticle moves over the orb.
