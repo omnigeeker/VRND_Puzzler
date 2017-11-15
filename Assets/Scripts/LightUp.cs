@@ -44,6 +44,7 @@ public class LightUp : MonoBehaviour
 	// This function can be hooked up in Unity by adding a Pointer Exit event trigger to the orb.
 	public void AestheticReset()
 	{
+        Debug.Log("AestheticReset()");
 		// Revert to the orb's default material.
 		this.GetComponent<MeshRenderer>().material = defaultMaterial; 
 	}
