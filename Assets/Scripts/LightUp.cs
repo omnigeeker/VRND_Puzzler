@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class LightUp : MonoBehaviour
 {
@@ -11,7 +12,6 @@ public class LightUp : MonoBehaviour
 
 	// The gameobject that has the GameLogic.cs script attached.
 	public GameLogic gameLogic;
-
 
 	void Start()
 	{
@@ -75,7 +75,14 @@ public class LightUp : MonoBehaviour
 		// Assign the lightup material to the orb.
 		this.GetComponent<MeshRenderer>().material = lightUpMaterial;
 
-		// Get the GVR audio source component on this orb and play the audio.
-		this.GetComponent<GvrAudioSource>().Play(); 
+        // Get the GVR audio source component on this orb and play the audio.
+        try
+        {
+            this.GetComponent<GvrAudioSource>().Play();
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e.ToString());
+        }
 	}
 }
