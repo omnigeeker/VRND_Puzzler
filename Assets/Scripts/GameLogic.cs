@@ -130,6 +130,11 @@ public class GameLogic : MonoBehaviour
 
         curretRoom = 0;
 
+        // Stop Fireworks
+        GameObject[] FireworkSystems = GameObject.FindGameObjectsWithTag("Fireworks");
+        foreach (GameObject GO in FireworkSystems)
+            GO.GetComponent<ParticleSystem>().Stop();
+
         // Move the player to the start position.
         player.transform.position = startPoint.transform.position;
 
@@ -236,6 +241,11 @@ public class GameLogic : MonoBehaviour
     // Do this when the player solves the puzzle.
     public void PuzzleSuccess()
     {
+        // Play Fireworks
+        GameObject[] FireworkSystems = GameObject.FindGameObjectsWithTag("Fireworks");
+        foreach (GameObject GO in FireworkSystems)
+            GO.GetComponent<ParticleSystem>().Play();
+
         // Enable the restart UI.
         restartUI.SetActive(true);
 
