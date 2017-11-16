@@ -157995,6 +157995,12 @@ MonoBehaviour:
   puzzleSpheres3:
   - {fileID: 505477369}
   - {fileID: 32244528}
+  - {fileID: 1019717078}
+  - {fileID: 501530931}
+  - {fileID: 831899868}
+  - {fileID: 2045043895}
+  - {fileID: 1237069944}
+  - {fileID: 2076702396}
   failAudioHolder: {fileID: 75660747}
 --- !u!4 &2054237445
 Transform:

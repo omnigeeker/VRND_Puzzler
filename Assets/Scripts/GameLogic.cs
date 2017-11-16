@@ -122,6 +122,7 @@ public class GameLogic : MonoBehaviour
     // Reset the puzzle sequence.
     public void ResetPuzzle()
     {
+        Debug.Log("ResetPuzzle()");
         // Enable the start UI.
         startUI.SetActive(true);
 
