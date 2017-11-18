@@ -4,10 +4,7 @@ VR游戏--用Unity实现的地牢游戏，重点在于注重VR用户体验
 Files：
 
 - Report.md is a game experience report
-- Report.html is a game experience report
-- 
 - Report_cn.md 是游戏体验报告
-- Report_cn.html 是游戏体验报告
 
 详细游戏体验报告如下
 
@@ -22,6 +19,8 @@ Files：
 ### 视频
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p6QYhq-UZLw" frameborder="0" allowfullscreen></iframe>
+
+游戏的过程是这样的，首先是开始界面，点击“Start”之后，进入地牢，先进入第1个房间，第1个房间有2个球。按照正确顺序点击后，进入第2个房间，第2个房间有3个球。按照正确顺序点击后，进入第3个房间，第3个房间有5个球。按照正确顺序点击后，进入第4个房间，第4个房间有8个球，按照正确顺序点击后，走出地牢。这个看见了满天焰火，这个是如果点击“Restart”，游戏将重新开始。
 
 ### 截图
 

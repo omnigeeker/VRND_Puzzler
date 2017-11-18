@@ -15,6 +15,8 @@ This is a puzzler project with magic ambience. In this game, you will be invited
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p6QYhq-UZLw" frameborder="0" allowfullscreen></iframe>
 
+The process of the game is this, the first is to start the interface, click "Start", into the dungeon, first into the first room, the first room has 2 balls. Click in the correct order to enter the second room, the second room has 3 balls. Click in the correct order to enter the third room, the third room has 5 balls. Click in the correct order, enter the fourth room, the fourth room has eight balls, click in the correct order, out of the dungeon. This see the sky, this is if you click "Restart", the game will start over.
+
 ### Screenshots
 
 Start of the game:
